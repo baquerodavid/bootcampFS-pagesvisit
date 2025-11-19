@@ -30,3 +30,23 @@ function resetBtn() {
 
 visitCounter();
 resetBtn();
+
+// 👇 CODIGO DE LA LIVE REVIEW EMPIEZA DESDE AQUÍ 👇
+
+// const getCount = () => localStorage.getItem("countVisit") || 0
+// const setCount = (visit) => localStorage.setItem("countVisit", visit)
+
+// let countVisit = getCount()
+
+// const updateCount = () => {
+//   setCount(countVisit)
+//   contadorVisitas.textContent = countVisit;
+// }
+
+// countVisit++;
+// updateCount();
+
+// btnReestablecer.addEventListener("click", () => {
+//   localStorage.setItem("countVisit", 0)
+//   contadorVisitas.textContent = localStorage.getItem("countVisit")
+// })
